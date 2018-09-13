@@ -1,10 +1,6 @@
 bootstrap:docker  
 From:tensorflow/tensorflow:nightly-gpu-py3
 
-#---------------------------------------------------------------------
-%labels
-#---------------------------------------------------------------------
-MAINTAINER Philipp Schmid
 
 #---------------------------------------------------------------------
 %environment
@@ -29,3 +25,5 @@ pip3 install \
     matplotlib \
     seaborn	\
 	Image
+	
+	
