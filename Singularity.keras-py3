@@ -21,9 +21,10 @@ pip3 install --upgrade keras
 
 	
 pip3 install \
-    jupyter \
-    matplotlib \
-    seaborn	\
-	Image
+     jupyter \
+     matplotlib \
+     seaborn	\
+     Image \
+     scikit-learn
 	
 	
